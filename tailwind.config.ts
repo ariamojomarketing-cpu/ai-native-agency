@@ -10,28 +10,28 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
+          300: '#a5b4fc',
+          400: '#818cf8',
+          500: '#6366f1',
+          600: '#4f46e5',
+          700: '#4338ca',
         },
         accent: {
-          500: '#8b5cf6',
-          600: '#7c3aed',
+          400: '#c084fc',
+          500: '#a855f7',
+          600: '#9333ea',
         },
-        background: '#0f172a',
-        surface: '#1e293b',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'mountain-pattern': "url('/mountain-bg.svg')",
-      }
+        'brand-gradient': 'linear-gradient(135deg, #6366f1 0%, #a855f7 100%)',
+      },
     },
   },
   plugins: [],
 }
+
 export default config
