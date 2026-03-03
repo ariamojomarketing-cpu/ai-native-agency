@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import ChatWidget from '../components/ChatWidget'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({
           <main className="relative">
             {children}
           </main>
+          <ChatWidget />
           <footer className="py-8 text-center text-gray-400 text-sm border-t border-gray-800 mt-20">
             <div className="container mx-auto px-4">
               <p>Built by the team behind Mojo Manor Waynesville • Contact: hello@mojomanorwaynesville.com</p>

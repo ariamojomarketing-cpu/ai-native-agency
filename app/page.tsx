@@ -1,7 +1,7 @@
-import Hero from '@/components/Hero'
-import Pricing from '@/components/Pricing'
-import ContactForm from '@/components/ContactForm'
-import Features from '@/components/Features'
+import Hero from '../components/Hero'
+import Pricing from '../components/Pricing'
+import ContactForm from '../components/ContactForm'
+import Features from '../components/Features'
 
 export default function Home() {
   return (
